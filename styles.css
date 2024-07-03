@@ -1,61 +1,61 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .quiz-container {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    text-align: center;
-    max-width: 400px;
-    width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
 }
 
 h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #question {
-    margin-bottom: 20px;
-    font-size: 1.2em;
+  margin-bottom: 20px;
+  font-size: 1.2em;
 }
 
 .btn-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .btn {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 #timer {
-    margin: 20px 0;
-    font-size: 1.1em;
+  margin: 20px 0;
+  font-size: 1.1em;
 }
 
 #score-container {
-    margin-bottom: 20px;
-    font-size: 1.1em;
+  margin-bottom: 20px;
+  font-size: 1.1em;
 }
 
 #restart-button {
-    display: none; /* Hidden initially, shown after game ends */
+  display: none;
 }
