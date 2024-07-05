@@ -89,6 +89,51 @@ const questions = [
       { text: "South America", correct: false },
     ],
   },
+  {
+    question: 'What is the currency of Japan?',
+    answers: [
+      { text: "Yen", correct: true },
+      { text: "Won", correct: false },
+      { text: "Peso", correct: false },
+      { text: "Dollar", correct: false },
+    ],
+  },
+  {
+    question: 'Who painted the “Mona Lisa”?',
+    answers: [
+      { text: "Vincent van Gogh", correct: false },
+      { text: "Pablo Picasso", correct: false },
+      { text: "Leonardo da Vinci", correct: true },
+      { text: "Claude Monet", correct: false },
+    ],
+  },
+  {
+    question: 'What is the longest river in the world?',
+    answers: [
+      { text: "Amazon River", correct: false },
+      { text: "Nile River", correct: true },
+      { text: "Yangtze River", correct: false },
+      { text: "Mississippi River", correct: false },
+    ],
+  },
+  {
+    question: 'Which company is known for its slogan “Just Do It”?',
+    answers: [
+      { text: " Adidas", correct: false },
+      { text: "Puma", correct: false },
+      { text: "Nike", correct: true },
+      { text: " Reebok", correct: false },
+    ],
+  },
+  {
+    question: 'What is the chemical symbol for sodium?',
+    answers: [
+      { text: "Na", correct: true },
+      { text: "So", correct: false },
+      { text: "S", correct: false },
+      { text: "Sd", correct: false },
+    ],
+  },
 ];
 
 let currentQuestionIndex = 0;
